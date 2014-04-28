@@ -4,23 +4,19 @@
 \geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
 
 \usepackage{graphicx} % Required for including pictures
-\graphicspath{ {screenshots/} }
 
 \usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figuree
 
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{hyperref}
+\usepackage[colorlinks=true,linkcolor=black]{hyperref}
 \usepackage{color}
 \usepackage{framed}
-\usepackage{minted}
-\usemintedstyle{monokai}
 
 \linespread{1.2} % Line spacing
 
 \setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
 
-\definecolor{bg}{HTML}{272822}
 \definecolor{gray}{RGB}{128, 128, 128}
 
 \begin{document}
@@ -46,9 +42,9 @@
 \large
 \emph{Autor:}\\
 
-Juan José \textsc{Rabadán} Barastegui
-Iván \textsc{Rojo Narango}
-Diego \textsc{Fernández Barrera}
+Juan José \textsc{Rabadán} Barastegui \\
+Iván \textsc{Rojo Narango} \\
+Diego \textsc{Fernández Barrera} 
 
 \hspace{3cm}
 
@@ -57,10 +53,18 @@ Diego \textsc{Fernández Barrera}
 \vfill % Fill the rest of the page with whitespace
 
 \end{titlepage}
+\tableofcontents
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENTOS
 %----------------------------------------------------------------------------------------
-
+\input{memoria/docs/Bloque1.tex}
+\newpage
+\input{memoria/docs/Bloque2.tex}
+\newpage
+\input{memoria/docs/Bloque3.tex}
+\newpage
+\input{memoria/docs/Bloque4.tex}
 
 \end{document}
