@@ -113,6 +113,8 @@ http://www.ecojoven.com/dos/03/RFID.html
 http://es.wikipedia.org/wiki/RFID
 http://www.it.uc3m.es/jmb/RFID/rfid.pdf
 http://www.ferroxtag.com/Downloads/BasicsRFID-ES.pdf‎
-
+http://www.xataka.com/moviles/nfc-que-es-y-para-que-sirve
+http://www.differencebetween.com/difference-between-rfid-and-vs-nfc/
+http://rapidnfc.com/blog/72/the_difference_between_nfc_and_rfid_explained
 
   [1]: http://blog.kuapay.com/us/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-1.00.52-PM1.png
