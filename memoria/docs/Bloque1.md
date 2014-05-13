@@ -5,6 +5,25 @@ RFID es un sistema de identificación por radiofrecuencia (Radio Frecuency IDent
 
 El tag RFID consiste en un microchip que va adjunto a una antena de radio y que va a servir para identificar unívocamente al elemento portador de la etiqueta. Con esto podemos almacenar hasta 2 Kbytes de datos. También se va a necesitar un lector que sea capaz de leer los datos almacenados en la etiqueta. Una vez hecho esto se puede trabajar con un ordenador sobre los datos que se han leído. 
 
+### NFC
+Dado el impacto que está teniendo últimamente y su intregración en smartphones y otros dispositivos móviles, conviene entender también que es NFC y su relación con RFID. NFC significa Near Field Communication. Se trata de una tecnología de comunicación inalámbrica que funciona en la banda de los 13.56 MHz (en esa banda no hace falta licencia para usarla) y que deriva de las etiquetas RFID. A grosso modo se podría decir que RFID es "identificación" y NFC es "comunicación". Las diferencias más importantes son:
+
+ - NFC soporta comunicaciones p2p (peer to peer), es decir, los dispositivos se pueden comportar como lectores y como etiquetas de forma que la comunicación es en ambos sentidos. Es esta característica lo que la hace mucho más versátil frente a RFID, aumentando enormemente sus aplicaciones.
+ - Mientras que RFID tiene un alcance de hasta 100 m NFC está limitada a unos 10 cm. Esto lejos de ser una limitación es una ventaja ya que hace más difícil el uso fraudulento como el robo de datos a distancia.
+ 
+####APLICACIONES
+ - Identificación (igual que con RFID).
+ - Recogida/intercambio de datos.
+ - Pago con el teléfono móvil.
+ 
+ ![enter image description here][1]
+ 
+
+ 
+ 
+ 
+
+
 ## ¿Cómo funciona RFID?
 El modo de funcionamiento de un sistema RFID es simple, el tag RFID, que contiene los datos de identificación del objeto al que está adherido, genera una señal de radiofrecuencia con dicho datos. La señal puede ser captada por un lector RFID, el cual se encarga de leer la información y pasarla en formato digital a la aplicación o software específico que utiliza RFID. 
 
@@ -96,4 +115,4 @@ http://www.it.uc3m.es/jmb/RFID/rfid.pdf
 http://www.ferroxtag.com/Downloads/BasicsRFID-ES.pdf‎
 
 
-
+  [1]: http://blog.kuapay.com/us/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-1.00.52-PM1.png
