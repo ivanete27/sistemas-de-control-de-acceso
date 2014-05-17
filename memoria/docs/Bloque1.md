@@ -6,7 +6,7 @@ RFID es un sistema de identificación por radiofrecuencia (Radio Frecuency IDent
 El tag RFID consiste en un microchip que va adjunto a una antena de radio y que va a servir para identificar unívocamente al elemento portador de la etiqueta. Con esto podemos almacenar hasta 2 Kbytes de datos. También se va a necesitar un lector que sea capaz de leer los datos almacenados en la etiqueta. Una vez hecho esto se puede trabajar con un ordenador sobre los datos que se han leído. 
 
 ### NFC
-Dado el impacto que está teniendo últimamente y su intregración en smartphones y otros dispositivos móviles, conviene entender también que es NFC y su relación con RFID. NFC significa Near Field Communication. Se trata de una tecnología de comunicación inalámbrica que funciona en la banda de los 13.56 MHz (en esa banda no hace falta licencia para usarla) y que deriva de las etiquetas RFID. A grosso modo se podría decir que RFID es "identificación" y NFC es "comunicación". Las diferencias más importantes son:
+Dado el impacto que está teniendo últimamente y su intregración en smartphones y otros dispositivos móviles, conviene entender también que es NFC y su relación con RFID. NFC significa Near Field Communication. Se trata de una tecnología de comunicación inalámbrica que funciona en la banda de los 13.56 MHz (en esa banda no hace falta licencia para usarla) y que deriva de las etiquetas RFID. Grosso modo se podría decir que RFID es "identificación" y NFC es "comunicación". Las diferencias más importantes son:
 
  - NFC soporta comunicaciones p2p (peer to peer), es decir, los dispositivos se pueden comportar como lectores y como etiquetas de forma que la comunicación es en ambos sentidos. Es esta característica lo que la hace mucho más versátil frente a RFID, aumentando enormemente sus aplicaciones.
  - Mientras que RFID tiene un alcance de hasta 100 m NFC está limitada a unos 10 cm. Esto lejos de ser una limitación es una ventaja ya que hace más difícil el uso fraudulento como el robo de datos a distancia.
@@ -101,7 +101,9 @@ frecuencia. Para el uso del espectro UHF los distintos países no consiguen lleg
 ya que en Europa se trabaja en 868 Mhz., en Estados Unidos 915 Mhz. y en Japón, reticente al
 uso de esta banda, empieza a trabajar en 960 Mhz. El problema que se genera en el empleo de la banda UHF es que hay distintos dispositivos que operan sobre la misma, y generan ruidos sobre los sistemas RFID y viceversa, con lo cual los gobiernos tienen que realizar detallados estudios para determinar y minimizar los trastornos que puedan suceder como consecuencia de cambiar las bandas de trabajo de los dispositivos RFID.
 
-## Diferencas RFID VS NFC (Raba y Iván. Hacemos una comparativa entre los dos)
+## MIFARE
+MIFARE es la marca comercial propiedad-Semiconductors NXP de una serie de chips ampliamente utilizado en tarjetas inteligentes sin contacto y tarjetas de proximidad. Es una tecnología RFID a 13,56 MHz ISO 14443A y 14443B. A menudo se hace referencia a MIFARE como una tecnología de “tarjeta inteligente”. Esto se basa en el hecho de que la tecnología MIFARE permite leer y escribir en la tarjeta. En realidad, MIFARE es simplemente una tarjeta de memoria en sus versiones Classic, Icode, ultralight y si es criptográfica (inteligente) en las versiones con procesador Desfire, Plus, Ultralight C.
+Las tarjetas inteligentes sin contacto MIFARE y los lectores/escritores de tarjetas MIFARE fueron desarrollados inicialmente para transacciones de pago en sistemas de transporte público. Gracias a su corto alcance de lectura, la tecnología MIFARE resultaba especialmente apropiada para realizar funciones de adición/sustracción. Aunque las tarjetas inteligentes de contacto también pueden hacer esas funciones, los lectores sin contacto son más rápidos y fáciles de usar y prácticamente no necesitan mantenimiento. Las tarjetas sin contacto, por su parte, casi no sufren desgaste.
 
 
 Dibujitos
