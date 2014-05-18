@@ -108,12 +108,12 @@ uso de esta banda, empieza a trabajar en 960 Mhz. El problema que se genera en e
 
 ## MIFARE
 MIFARE es la marca comercial propiedad-Semiconductors NXP de una serie de chips ampliamente utilizado en tarjetas inteligentes sin contacto y tarjetas de proximidad. Es una tecnología RFID a 13,56 MHz ISO 14443A y 14443B. A menudo se hace referencia a MIFARE como una tecnología de “tarjeta inteligente”. Esto se basa en el hecho de que la tecnología MIFARE permite leer y escribir en la tarjeta. En realidad, MIFARE es simplemente una tarjeta de memoria en sus versiones Classic, Icode, ultralight y si es criptográfica (inteligente) en las versiones con procesador Desfire, Plus, Ultralight C.
+
+![][4]
+
 Las tarjetas inteligentes sin contacto MIFARE y los lectores/escritores de tarjetas MIFARE fueron desarrollados inicialmente para transacciones de pago en sistemas de transporte público. Gracias a su corto alcance de lectura, la tecnología MIFARE resultaba especialmente apropiada para realizar funciones de adición/sustracción. Aunque las tarjetas inteligentes de contacto también pueden hacer esas funciones, los lectores sin contacto son más rápidos y fáciles de usar y prácticamente no necesitan mantenimiento. Las tarjetas sin contacto, por su parte, casi no sufren desgaste.
 
 
-Dibujitos
-
-Partes
 
 FUENTES
 http://www.ecojoven.com/dos/03/RFID.html
@@ -127,3 +127,4 @@ http://rapidnfc.com/blog/72/the_difference_between_nfc_and_rfid_explained
   [1]: http://blog.kuapay.com/us/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-1.00.52-PM1.png
   [2]: http://animalmigration.org/RFID/images/RFID_SYSTEM.gif
   [3]: http://www.enzocard.eu/IMG/png/tags_rfid_550.png
+  [4]: http://www.securityartwork.es/wp-content/uploads/2010/01/mifare2.jpg
