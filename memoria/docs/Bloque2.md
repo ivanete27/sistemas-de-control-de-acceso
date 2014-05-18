@@ -19,3 +19,12 @@ Entonces tenemos que la persona que tiene su tag lo acerca al lector y éste con
 
 ##Seguridad
 Hay que tener cuidado donde dejamos la tarjeta ya que podria venir alguien y hacernos un ataque de RFID spoofing clonando nuestra tarjeta y asi tener acceso.
+
+##Aplicación Práctica de Control de Acceso
+Hemos desarrollado un sistema de control de acceso real que podría implementarse en una puerta. Para ello hemos usado un Arduino conectado a un lector RFID de 125 Khz. El Arduino a su vez está conectado a un servidor que es el encargado de hacer las consultas a la base de datos y responder al Arduino si el tag está o no autorizado. Cuando el Arduino recibe la respuesta, si el tag figura como autorizado, genera una señal que podría ser conectada a un sistema de cerradura eléctrica como el que tienen los porteros automáticos. 
+Nosotros hemos conectado la salida de Arduino a un led, que se encendía cuando el tag era autorizado.
+
+![enter image description here][1]
+
+
+  [1]: http://cdn.instructables.com/F45/0HSV/FZNHON0K/F450HSVFZNHON0K.MEDIUM.jpg
