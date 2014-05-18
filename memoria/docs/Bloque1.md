@@ -3,8 +3,6 @@
 ## ¿Qué es RFID? 
 RFID es un sistema de identificación por radiofrecuencia (Radio Frecuency IDentification), es una nueva tecnología para identificar objetos a distancia (sin contacto físico ni visual) mediante tags RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (automatic identification, o identificación automática). 
 
-![enter image description here][2]
-
 El tag RFID consiste en un microchip que va adjunto a una antena de radio y que va a servir para identificar unívocamente al elemento portador de la etiqueta. Con esto podemos almacenar hasta 2 Kbytes de datos. También se va a necesitar un lector que sea capaz de leer los datos almacenados en la etiqueta. Una vez hecho esto se puede trabajar con un ordenador sobre los datos que se han leído. 
 
 ### NFC
@@ -28,6 +26,8 @@ Dado el impacto que está teniendo últimamente y su intregración en smartphone
 
 ## ¿Cómo funciona RFID?
 El modo de funcionamiento de un sistema RFID es simple, el tag RFID, que contiene los datos de identificación del objeto al que está adherido, genera una señal de radiofrecuencia con dicho datos. La señal puede ser captada por un lector RFID, el cual se encarga de leer la información y pasarla en formato digital a la aplicación o software específico que utiliza RFID. 
+
+![enter image description here][2]
 
 Un sistema RFID consta de los siguientes tres componentes:
 
@@ -74,6 +74,8 @@ Este tipo de etiqueta tiene una fiabilidad comparable a la de las activas, a la 
 ## Tipos de antenas
 El tipo de antena utilizado en una etiqueta depende de la aplicación para la que está diseñado y de la frecuencia de operación. Las etiquetas de baja frecuencia (LF, del inglés low frequency) normalmente se sirven de la inducción electromagnética. Como el voltaje inducido es proporcional a la frecuencia, se puede producir el necesario para alimentar un circuito integrado utilizando un número suficiente de espiras. Existen etiquetas LF compactas (como las encapsuladas en vidrio, utilizadas para identificación humana y animal) que utilizan una antena en varios niveles (tres de 100-150 espiras cada uno) alrededor de un núcleo de ferrita.
 
+![][5]
+
 En alta frecuencia (HF, 13,56 MHz) se utiliza una espiral plana con 5-7 vueltas y un factor de forma parecido al de una tarjeta de crédito para lograr distancias de decenas de centímetros. Estas antenas son más baratas que las LF ya que pueden producirse por medio de litografía en lugar de espiración, aunque son necesarias dos superficies de metal y una aislante para realizar la conexión cruzada del nivel exterior al interior de la espiral, donde se encuentran el condensador de resonancia y el circuito integrado.
 
 Las etiquetas pasivas en frecuencias ultraalta (UHF) y de microondas suelen acoplarse por radio a la antena del lector y utilizar antenas clásicas de dipolo. Sólo es necesaria una capa de metal, lo que reduce el coste. Las antenas de dipolo, no obstante, no se ajustan muy bien a las características de los circuitos integrados típicos (con alta impedancia de entrada, ligeramente capacitiva). Se pueden utilizar dipolos plegados o bucles cortos como estructuras inductivas complementarias para mejorar la alimentación. Los dipolos de media onda (16 cm a 900 MHz) son demasiado grandes para la mayoría de aplicaciones (por ejemplo las etiquetas RFID para uso en etiquetas no pueden medir más de 10 cm), por lo que hay que doblar las antenas para satisfacer las necesidades de tamaño. También pueden usarse estructuras de banda ancha. La ganancia de las antenas compactas suele ser menor que la de un dipolo (menos de 2 dB) y pueden considerarse isótropas en el plano perpendicular a su eje.
@@ -100,11 +102,15 @@ Las clases no son interoperables y además son incompatibles con los estándares
 Por su parte, ISO ha desarrollado estándares de RFID para la identificación automática y la gestión de objetos. Existen varios estándares relacionados, como ISO 10536, ISO 14443 e ISO 15693, pero la serie de estándares estrictamente relacionada con las RFID y las frecuencias empleadas en dichos sistemas es la serie 18000.
 
 ## Regulación de frecuencias
-Las bandas de frecuencia en las que trabajan los sistemas RFID son 125 o 134 Khz. para baja
+Las bandas de frecuencia en las que trabajan los sistemas RFID son 125 o 134 Khz para baja
 frecuencia y 13’56 para alta frecuencia, aunque pueden trabajar en muchos otros rangos de
 frecuencia. Para el uso del espectro UHF los distintos países no consiguen llegar a un estándar
-ya que en Europa se trabaja en 868 Mhz., en Estados Unidos 915 Mhz. y en Japón, reticente al
-uso de esta banda, empieza a trabajar en 960 Mhz. El problema que se genera en el empleo de la banda UHF es que hay distintos dispositivos que operan sobre la misma, y generan ruidos sobre los sistemas RFID y viceversa, con lo cual los gobiernos tienen que realizar detallados estudios para determinar y minimizar los trastornos que puedan suceder como consecuencia de cambiar las bandas de trabajo de los dispositivos RFID.
+ya que en Europa se trabaja en 868 Mhz, en Estados Unidos 915 Mhz y en Japón, reticente al
+uso de esta banda, empieza a trabajar en 960 Mhz. 
+
+![][6]
+
+El problema que se genera en el empleo de la banda UHF es que hay distintos dispositivos que operan sobre la misma, y generan ruidos sobre los sistemas RFID y viceversa, con lo cual los gobiernos tienen que realizar detallados estudios para determinar y minimizar los trastornos que puedan suceder como consecuencia de cambiar las bandas de trabajo de los dispositivos RFID.
 
 ## MIFARE
 MIFARE es la marca comercial propiedad-Semiconductors NXP de una serie de chips ampliamente utilizado en tarjetas inteligentes sin contacto y tarjetas de proximidad. Es una tecnología RFID a 13,56 MHz ISO 14443A y 14443B. A menudo se hace referencia a MIFARE como una tecnología de “tarjeta inteligente”. Esto se basa en el hecho de que la tecnología MIFARE permite leer y escribir en la tarjeta. En realidad, MIFARE es simplemente una tarjeta de memoria en sus versiones Classic, Icode, ultralight y si es criptográfica (inteligente) en las versiones con procesador Desfire, Plus, Ultralight C.
@@ -125,6 +131,9 @@ http://www.differencebetween.com/difference-between-rfid-and-vs-nfc/
 http://rapidnfc.com/blog/72/the_difference_between_nfc_and_rfid_explained
 
   [1]: http://blog.kuapay.com/us/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-1.00.52-PM1.png
-  [2]: http://animalmigration.org/RFID/images/RFID_SYSTEM.gif
+  [2]: http://www.evaluandoerp.com/Gallery/59.gif
   [3]: http://www.enzocard.eu/IMG/png/tags_rfid_550.png
   [4]: http://www.securityartwork.es/wp-content/uploads/2010/01/mifare2.jpg
+  [5]: http://rob.sh/img/rfid_passive_tag.png
+  [6]: http://upload.wikimedia.org/wikipedia/commons/a/ae/Frecuencias_Utilizadas_en_RFID.gif
+  
