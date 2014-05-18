@@ -3,6 +3,8 @@
 ## ¿Qué es RFID? 
 RFID es un sistema de identificación por radiofrecuencia (Radio Frecuency IDentification), es una nueva tecnología para identificar objetos a distancia (sin contacto físico ni visual) mediante tags RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (automatic identification, o identificación automática). 
 
+![enter image description here][2]
+
 El tag RFID consiste en un microchip que va adjunto a una antena de radio y que va a servir para identificar unívocamente al elemento portador de la etiqueta. Con esto podemos almacenar hasta 2 Kbytes de datos. También se va a necesitar un lector que sea capaz de leer los datos almacenados en la etiqueta. Una vez hecho esto se puede trabajar con un ordenador sobre los datos que se han leído. 
 
 ### NFC
@@ -42,6 +44,9 @@ Las etiquetas RFID pueden ser activas, semipasivas (también conocidos como semi
 ### Etiquetas RFID pasivas
 Las etiquetas pasivas no tienen alimentación eléctrica. La señal que les llega de los lectores induce una corriente eléctrica suficiente para operar el circuito integrado CMOS de la etiqueta, de forma que puede generar y transmitir una respuesta. 
 Debido a esto la señal respuesta tiene un tiempo de vida bastante corto y su radio de transmisión puede llegar a como mucho 6 metros, pero tiene la ventaja de poder ser mucho más pequeñas que las etiquetas activas.
+
+![enter image description here][3]
+
 Las etiquetas pasivas suelen tener distancias de uso práctico comprendidas entre los 10 cm (ISO 14443) y llegando hasta unos pocos metros (EPC e ISO 18000-6), según la frecuencia de funcionamiento y el diseño y tamaño de la antena. Por su sencillez conceptual, son obtenibles por medio de un proceso de impresión de las antenas. 
 Generalmente operan en una frecuencia de 124, 125 o 135 Khz. La forma de la etiqueta dependerá del uso que se vaya a hacer de las mismas, aunque lo normal es que vaya montada sobre una pegatina o una tarjeta.
 
@@ -120,3 +125,5 @@ http://www.differencebetween.com/difference-between-rfid-and-vs-nfc/
 http://rapidnfc.com/blog/72/the_difference_between_nfc_and_rfid_explained
 
   [1]: http://blog.kuapay.com/us/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-1.00.52-PM1.png
+  [2]: http://animalmigration.org/RFID/images/RFID_SYSTEM.gif
+  [3]: http://www.enzocard.eu/IMG/png/tags_rfid_550.png
